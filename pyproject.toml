@@ -1,0 +1,16 @@
+[project]
+name = "google-maps-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "absl-py>=2.3.1",
+    "google-adk==1.15.1",
+    "google-auth>=2.43.0",
+    "google-cloud-aiplatform[agent-engines]==1.119.0",
+    "lxml>=6.0.2",
+    "mcp>=1.21.0",
+    "requests>=2.32.5",
+    "typer>=0.20.0",
+]
