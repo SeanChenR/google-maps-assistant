@@ -129,15 +129,6 @@ root_agent = Agent(
 
 ## 設定選項
 
-### 模型選擇
-
-在 `.env` 中變更 AI 模型:
-
-```bash
-MODEL=gemini-2.5-flash      # 快速回應
-MODEL=gemini-2.0-pro        # 更強大的能力
-```
-
 ### Gemini Enterprise 客製化
 
 自訂代理程式外觀:
