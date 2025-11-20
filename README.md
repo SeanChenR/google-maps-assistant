@@ -24,6 +24,7 @@
 ```
 google-maps-assistant/
 ├── google_maps_mcp_agent/
+│   ├── .env
 │   ├── __init__.py
 │   └── agent.py              # 主要代理程式定義
 ├── installation_scripts/
@@ -128,15 +129,6 @@ root_agent = Agent(
 - "我要拜訪客戶xx公司，我是xx地出發，客戶是在xx地址"
 
 ## 設定選項
-
-### 模型選擇
-
-在 `.env` 中變更 AI 模型:
-
-```bash
-MODEL=gemini-2.5-flash      # 快速回應
-MODEL=gemini-2.0-pro        # 更強大的能力
-```
 
 ### Gemini Enterprise 客製化
 
