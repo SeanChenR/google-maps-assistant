@@ -1,11 +1,12 @@
+import os
+
 from dotenv import load_dotenv
 from vertexai import agent_engines
 
-load_dotenv()  # May skip if you have exported environment variables.
+load_dotenv()
 
-agent_engine_id = (
-    "projects/745425319636/locations/us-central1/reasoningEngines/2466578415055011840"
-)
+agent_engine_id = os.environ.get("AGENT_ENGINE_RESOURCE_NAME")
+
 user_input = "我要拜訪客戶沃司科技，我是思想科技台北出發，客戶是在No. 655號, Bannan Rd, Zhonghe District, New Taipei City, 235"
 
 remote_app = agent_engines.get(agent_engine_id)

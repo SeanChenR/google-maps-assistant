@@ -24,6 +24,7 @@
 ```
 google-maps-assistant/
 ├── google_maps_mcp_agent/
+│   ├── .env
 │   ├── __init__.py
 │   └── agent.py              # 主要代理程式定義
 ├── installation_scripts/

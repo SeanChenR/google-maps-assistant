@@ -1,7 +1,7 @@
 [project]
 name = "google-maps-assistant"
 version = "0.1.0"
-description = "Add your description here"
+description = "An AI agent for Google Maps using Google ADK and MCP, deployable on Vertex AI."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
