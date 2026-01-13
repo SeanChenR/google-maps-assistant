@@ -86,7 +86,7 @@ if "--test" in sys.argv:
         session = await remote_app.async_create_session(user_id=user_id)
         print(f"Session: {session.get('id')}")
 
-        test_query = "我要拜訪客戶沃司科技，我是思想科技台北出發，客戶是在No. 655號, Bannan Rd, Zhonghe District, New Taipei City, 235"
+        test_query = "我要去台北 101，我是從台北車站出發"
 
         print(f"\nQuery: {test_query}\n")
         print("=" * 80)
